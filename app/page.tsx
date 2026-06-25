@@ -228,7 +228,7 @@ export default function Home() {
             className="border border-white/20 hover:border-teal-400 hover:text-teal-400 px-8 py-3 rounded-full transition-all hover:scale-105">
             +91 63029 07845
           </a>
-          <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID" target="_blank"
+          <a href="https://www.linkedin.com/in/ereddyvamshidharreddy" target="_blank"
             className="border border-white/20 hover:border-blue-400 hover:text-blue-400 px-8 py-3 rounded-full transition-all hover:scale-105">
             LinkedIn ↗
           </a>
