@@ -166,10 +166,10 @@ function CinematicReel({ onComplete, onSkip }: { onComplete: () => void, onSkip:
       {/* Top Progress Bar */}
       <div className="absolute top-0 left-0 w-full h-1 bg-[#18181b] z-50">
         <div 
+          key={slide}
           className="h-full bg-gradient-to-r from-[#00e5ff] to-[#b5179e]"
           style={{ 
-            animation: `progress ${timings[slide]}ms linear forwards`,
-            key: slide
+            animation: `progress ${timings[slide]}ms linear forwards`
           }} 
         />
       </div>
